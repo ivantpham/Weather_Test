@@ -1,0 +1,179 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+html {
+  margin: none;
+  padding: none;
+  border: none;
+}
+body {
+  background-color: #ffffff;
+}
+.title-box-1 .row {
+  margin: 0;
+}
+.title-box-1 .row .box-contai-1 {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  width: 1000px;
+  color: #fff;
+}
+.title-box-1 .row .box-contai-1 h2 {
+  font-size: 50px;
+  font-weight: 900;
+  color: #fecc6e;
+}
+.title-box-1 .row .box-contai-1 .info .text img {
+  width: 150px;
+  margin: -10px 40px -30px 20px;
+}
+.title-box-1 .row .box-contai-1 .info .text .text-info-box {
+  margin-right: 25px;
+}
+.title-box-1 .row .box-contai-1 .info .text .text-info-box img {
+  width: 25px;
+  height: 25px;
+  margin-top: -0.9px;
+  margin-right: 5px;
+}
+.title-box-1 .row .box-contai-1 .info .text .temp-box {
+  margin-bottom: 30px;
+}
+.title-box-1 .row .box-contai-1 .info .text .temp-box .image-wrapper {
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+.title-box-1 .row .box-contai-1 .info .text .temp-box .image-wrapper img {
+  width: 200px;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 30px 60px 0 0;
+}
+.title-box-1 .row .box-contai-1 .info .text .temp-box .text-temp {
+  font-size: 70px;
+  font-weight: 900;
+}
+.title-box-1 .row .box-contai-1 .info .text .temp-feel .text-feel {
+  margin-top: -40px;
+  margin-bottom: 40px;
+  font-weight: 900;
+  color: #fecc6e;
+}
+.title-box-1 .row .box-contai-1 .info .text .temp-feel .rise-set-box img {
+  width: 60px;
+  height: 60px;
+  margin-top: -2px;
+  margin-right: 20px;
+}
+.title-box-1 .row .box-contai-1 .info h2 {
+  margin-bottom: 100px;
+}
+.title-box-2 {
+  min-height: 100vh;
+  margin-top: -25px;
+  background-image: url('../image/nature.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+.title-box-2 .box-contai-2 {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.title-box-2 .box-contai-2 .heading {
+  margin-top: -50px;
+}
+.title-box-2 .box-contai-2 .box-fast-search .search-fast-text {
+  font-size: 15px;
+  margin-top: 20px;
+  font-weight: 900;
+  color: #ffffff;
+  padding: 4px 6px;
+  background-color: #000000;
+  border-radius: 10px;
+}
+.title-box-2 .box-contai-2 .box-fast-search .fast-search {
+  width: 100%;
+  margin-top: 10px;
+}
+.title-box-2 .box-contai-2 .box-fast-search .fast-search .city {
+  font-size: 1rem;
+  margin: 0 10px;
+  cursor: pointer;
+  padding: 8px 10px 0 10px;
+  background-color: #536bf6;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.title-box-2 .box-contai-2 .box-fast-search .fast-search .city:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+.title-box-2 .box-contai-2 h3 {
+  font-weight: 900;
+  font-size: 20px;
+  color: #fff;
+  background-color: #536bf6;
+  border-radius: 10px;
+  width: 456px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  margin-bottom: -10px;
+}
+.title-box-2 .box-contai-2 .info-2 img {
+  width: 450px;
+  margin: 30px 0 10px 0;
+  border-radius: 30px;
+}
+.title-box-2 .box-contai-2 .search {
+  width: 660px;
+  margin-bottom: auto;
+  margin-top: 20px;
+  height: 50px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+.title-box-2 .box-contai-2 .search .search-input {
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  margin-top: 5px;
+  caret-color: transparent;
+  line-height: 20px;
+  transition: width 0.4s linear;
+}
+.title-box-2 .box-contai-2 .search .search-button {
+  padding: 15px 60px;
+  margin: -2px 20px 20px 20px;
+  height: 34px;
+  width: 40px;
+  /* float: right; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #536bf6;
+  font-size: 10px;
+  /* bottom: 40px; */
+  /* position: relative; */
+  border-radius: 5px;
+  box-shadow: none;
+  cursor: pointer;
+}
+.title-box-2 .box-contai-2 .search .search-button .bi-search {
+  font-size: 20px;
+}
+.title-box-2 .box-contai-2 .search .search-button:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+.search-container {
+  position: relative;
+  z-index: 9999;
+}
+a:link {
+  text-decoration: none;
+}
